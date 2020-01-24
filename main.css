@@ -1,0 +1,107 @@
+body {
+	/*background-color: #3b3a3a;*/
+	background-color: #2b2a2a !important;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+
+.navbar ul {
+	
+	list-style-type: none;
+	margin-top: 0;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #7a7572;
+	width: 100%;
+	opacity: 75%;
+}
+
+.navbar li {
+
+	float: right;
+	width: 12em;
+
+
+}
+
+.navbar li a {
+
+	display: block;
+	padding: 15px;
+	text-align: center;
+	color: #2b2a2a;
+	text-decoration: none;
+	/*ont-family: "Times New Roman", Times, serif;*/
+	font-family: "Courier", Lucida , monospace;
+	font-weight: bold;
+	font-size: 24px;
+	
+}
+
+
+.navbar li a:hover:not(.active) {
+
+	background-color: #756d69;
+	color: #2b2a2a;
+	text-decoration: none;
+
+}
+
+.navbar .active {
+
+	background-color: #e3d7d0;
+	color: #2b2a2a;
+	text-decoration: none;
+	
+}
+
+.jumbotron {
+	font-family: "Lucida Console", Lucida , monospace;
+	text-align: center;
+	background-color: #7a7572 !important;
+	opacity: 75%;
+	
+	
+}
+
+.jumbotron h1{
+
+	font-weight: bold;
+	font-size: 6em !important;
+
+}
+
+h2 {
+	font-family: "Courier", Lucida , monospace !important;
+	font-weight: bold !important;
+	text-align: center;
+	color: #7a7572 !important;
+	font-size: 3em !important;
+}
+
+h3 {
+	font-family: "Courier", Lucida , monospace !important;
+	text-align: center;
+	color: #7a7572 !important;
+	font-size: 2.5em !important;
+}
+
+h4 {
+	font-family: "Courier", Lucida , monospace !important;
+	text-align: center;
+	color: #7a7572 !important;
+	font-size: 1.5em !important;
+}
+
+.skill {
+	display: inline-block;
+	border-radius: 4px;
+	transition: all .6s;
+	padding: 10px;
+	background-color: #7a7572;
+	color: #2b2a2a;
+}
